@@ -1,0 +1,24 @@
+{
+  "lean_server_url": "http://127.0.0.1:12332",
+  "llm_providers": {
+    "draft_model": {
+      "api_url": "YOUR_DRAFT_MODEL_API_URL",
+      "api_key": "YOUR_DRAFT_MODEL_API_KEY",
+      "model_name": "deepseek-r1"
+    },
+    "sketch_model": {
+      "api_url": "YOUR_SKETCH_MODEL_API_URL",
+      "api_key": "YOUR_SKETCH_MODEL_API_KEY",
+      "model_name": "deepseek-r1"
+    },
+    "prove_model": {
+      "api_url": "YOUR_PROVE_MODEL_API_URL",
+      "api_key": "YOUR_PROVE_MODEL_API_KEY",
+      "model_name": "AI-MO/Kimina-Prover-72B"
+    }
+  },
+  "agent_settings": {
+    "max_proof_attempts": 3,
+    "max_parallel_workers": 4
+  }
+}
